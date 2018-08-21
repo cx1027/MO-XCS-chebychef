@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13dcca90-bb0b-47d5-95d1-ea0024144be0" name="Default" comment="add project">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataAnalysis/MazeStepPath.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/CONCAVE_DST.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/MATHOD2_1000.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/METHOD0_1000.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/METHOD0_3000.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/METHOD0_3000_update.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/METHOD1_1000.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/METHOD3_1000.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201807101456 - Trial 0 - TRIAL_NUM - 150000 - TEST.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/ActionPareto.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/Classifier.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/Environment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/NXCS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/NXCSParameters.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/ParetoQvector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/PathStep.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/Qvector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/Result.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/Reward.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/Reward_RnS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/XienceMath.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/addVector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/addVectorNList.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/IBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/IParetoCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/ITrace.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/MazeBase$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/MazeBase$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/MazeBase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/MazeParameters.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/common/StringUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/CoreDistanceCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/DistanceCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/DistanceCalculatorUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/IDistanceCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/JDistanceCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/MaxDistanceCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/MinDistanceCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/distance/MinDistanceV.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/getNDdots.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/moead/MOEAD.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/moead/Sorting.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/stats/Snapshot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/stats/StatsLogger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/stats/StepSnapshot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/stats/StepStatsLogger.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/stats/StepStatsPoint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/testbed/MazeRunner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/testbed/dst_weighted_sum.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/utils/HyperVolumn$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/utils/HyperVolumn.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/utils/ParameterService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/utils/ParetoCalculator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/nxcs/utils/ParetoCalculatorSkew.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DST.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DST5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DST8.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DSTCorrectPart.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DSTfull.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DSTnoB.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DSTorigin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/DSTpart.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze10.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze11.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze4.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze5.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze6.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/maze7.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/woods1.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/woods101.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/woods102.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/woods14.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataAnalysis/Maze/maze.R" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataAnalysis/Maze/maze4_path_weight100_weight30.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataAnalysis/Maze/maze5_path_weight100_weight30.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataAnalysis/Maze/maze6_path_weight100_weight30.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/METHOD0_1500_DST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/MOTHOD0_3500_DST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.base.log.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.log.9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/log4j-application.stat.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804202234 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804202240 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804202244 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804202250 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804211208 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804212003 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804212022 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804212032 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804212043 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804212046 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201804212103 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201805092203 - Trial 0 - TRIAL_NUM - 25000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201805162105 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201805261908 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201805262032 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201805262040 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201807101456 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808152236 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808162015 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808171931 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808191549 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808192058 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808192247 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/nxcs.testbed.dst_weighted_sum - 201808201901 - Trial 0 - TRIAL_NUM - 150000 - TEST.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/ActionPareto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Classifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Environment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/NXCS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/NXCSParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/ParetoQvector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/PathStep.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Qvector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Reward.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Reward_RnS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/Trace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/XienceMath.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/addVector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/addVectorNList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/common/IBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/common/IParetoCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/common/ITrace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/common/MazeBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/common/MazeParameters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/common/StringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/CoreDistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/DistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/DistanceCalculatorUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/IDistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/JDistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/MaxDistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/MinDistanceCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/distance/MinDistanceV.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/getNDdots.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/moead/MOEAD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/moead/Sorting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/stats/Snapshot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/stats/StatsLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/stats/StepSnapshot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/stats/StepStatsLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/stats/StepStatsPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/MazeRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/dst_weighted_sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/maze1_picture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/maze1_result.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/maze1_weighted_sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/maze4_weighted_sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/maze5_weighted_sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/testbed/maze6_weighted_sum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/utils/HyperVolumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/utils/ParameterService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/utils/ParetoCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nxcs/utils/ParetoCalculatorSkew.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/DSTConcave.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/DSTConvext.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/DSTfull.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/DSTfullUpdate.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/dst.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/maze4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/maze4loop.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/maze5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/maze5loop.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/maze6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rewards/maze6loop.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/DSTConcave.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/DSTConvext.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/DSTfull.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/DSTfullUpdate.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/dst.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/maze4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/maze4loop.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/maze5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/maze5loop.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/maze6.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/rewards/maze6loop.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ActionPareto.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nxcs/ActionPareto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="186" />
+    <option name="y" value="-906" />
+    <option name="width" value="1280" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="XCS_MOEAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MO-XCS-chebychef" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XCS_MOEAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MO-XCS-chebychef" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XCS_MOEAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MO-XCS-chebychef" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XCS_MOEAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MO-XCS-chebychef" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XCS_MOEAD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MO-XCS-chebychef" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nxcs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13dcca90-bb0b-47d5-95d1-ea0024144be0" name="Default" comment="" />
+      <created>1534844839111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534844839111</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add project">
+      <created>1534844876627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1534844876629</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="186" y="-906" width="1280" height="733" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nxcs/ActionPareto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
